@@ -1,0 +1,684 @@
+/* ============================================================
+   EDUPRO PREDICTIVE INTELLIGENCE
+   Professional Streamlit Dashboard Theme
+   ============================================================ */
+
+
+/* ============================================================
+   GLOBAL
+   ============================================================ */
+
+html,
+body,
+[class*="css"] {
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+}
+
+
+/* Main application background */
+
+.stApp {
+    background:
+        linear-gradient(
+            135deg,
+            #f8fafc 0%,
+            #f1f5f9 45%,
+            #eef2ff 100%
+        );
+}
+
+
+/* Main content area */
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1450px;
+}
+
+
+/* Remove excessive top decoration */
+
+[data-testid="stDecoration"] {
+    display: none;
+}
+
+
+/* ============================================================
+   SIDEBAR
+   ============================================================ */
+
+section[data-testid="stSidebar"] {
+    background:
+        linear-gradient(
+            180deg,
+            #0f172a 0%,
+            #172554 55%,
+            #1e1b4b 100%
+        );
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+/* Sidebar content */
+
+section[data-testid="stSidebar"] > div {
+    padding-top: 1.5rem;
+}
+
+
+/* Sidebar text */
+
+section[data-testid="stSidebar"] * {
+    color: #e5e7eb;
+}
+
+
+/* Sidebar title */
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #ffffff !important;
+    font-weight: 750;
+}
+
+
+/* Sidebar radio buttons */
+
+section[data-testid="stSidebar"]
+div[role="radiogroup"] {
+    gap: 5px;
+}
+
+
+/* Radio option */
+
+section[data-testid="stSidebar"]
+div[role="radiogroup"] label {
+    border-radius: 10px;
+    padding: 9px 11px;
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+/* Radio hover */
+
+section[data-testid="stSidebar"]
+div[role="radiogroup"] label:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateX(2px);
+}
+
+
+/* Sidebar divider */
+
+section[data-testid="stSidebar"] hr {
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+
+/* Sidebar captions */
+
+section[data-testid="stSidebar"] .stCaption {
+    color: #94a3b8 !important;
+}
+
+
+/* ============================================================
+   MAIN TITLE
+   ============================================================ */
+
+.main-title {
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    line-height: 1.08;
+    margin-bottom: 0.45rem;
+
+    background:
+        linear-gradient(
+            90deg,
+            #0f172a,
+            #1d4ed8,
+            #4f46e5
+        );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* Subtitle */
+
+.subtitle {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #64748b;
+    max-width: 850px;
+    margin-bottom: 1.75rem;
+}
+
+
+/* ============================================================
+   HEADINGS
+   ============================================================ */
+
+h1 {
+    font-weight: 800 !important;
+    letter-spacing: -0.8px;
+    color: #0f172a;
+}
+
+
+h2 {
+    font-weight: 750 !important;
+    letter-spacing: -0.5px;
+    color: #172554;
+}
+
+
+h3 {
+    font-weight: 700 !important;
+    color: #1e293b;
+}
+
+
+/* ============================================================
+   DIVIDERS
+   ============================================================ */
+
+hr {
+    border: none !important;
+    border-top: 1px solid #e2e8f0 !important;
+    margin: 1.5rem 0 !important;
+}
+
+
+/* ============================================================
+   METRIC CARDS
+   ============================================================ */
+
+div[data-testid="stMetric"] {
+    background:
+        rgba(255, 255, 255, 0.88);
+
+    border: 1px solid rgba(226, 232, 240, 0.95);
+
+    border-radius: 16px;
+
+    padding: 1.15rem 1.2rem;
+
+    box-shadow:
+        0 8px 25px rgba(15, 23, 42, 0.06);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+div[data-testid="stMetric"]:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 14px 30px rgba(15, 23, 42, 0.10);
+}
+
+
+/* Metric label */
+
+div[data-testid="stMetricLabel"] {
+    color: #64748b !important;
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+}
+
+
+/* Metric value */
+
+div[data-testid="stMetricValue"] {
+    color: #0f172a !important;
+    font-weight: 800 !important;
+}
+
+
+/* Metric delta */
+
+div[data-testid="stMetricDelta"] {
+    font-weight: 600 !important;
+}
+
+
+/* ============================================================
+   GENERAL CARDS
+   ============================================================ */
+
+.insight-box {
+    padding: 1rem 1.15rem;
+
+    border-radius: 14px;
+
+    border: 1px solid #e2e8f0;
+
+    background:
+        rgba(255, 255, 255, 0.85);
+
+    margin: 0.7rem 0;
+
+    color: #334155;
+
+    line-height: 1.65;
+
+    box-shadow:
+        0 5px 18px rgba(15, 23, 42, 0.04);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.insight-box:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+
+/* ============================================================
+   SMALL NOTES
+   ============================================================ */
+
+.small-note {
+    font-size: 0.82rem;
+    color: #64748b;
+    line-height: 1.55;
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+.stButton > button {
+    border-radius: 10px;
+
+    min-height: 2.65rem;
+
+    padding:
+        0.55rem 1.1rem;
+
+    font-weight: 650;
+
+    border: 1px solid #cbd5e1;
+
+    background: #ffffff;
+
+    color: #1e293b;
+
+    transition:
+        all 0.2s ease;
+
+    box-shadow:
+        0 3px 10px rgba(15, 23, 42, 0.05);
+}
+
+
+.stButton > button:hover {
+    border-color: #4f46e5;
+
+    color: #3730a3;
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 7px 18px rgba(79, 70, 229, 0.12);
+}
+
+
+/* Primary buttons */
+
+.stButton > button[kind="primary"] {
+    border: none;
+
+    background:
+        linear-gradient(
+            135deg,
+            #2563eb,
+            #4f46e5
+        );
+
+    color: #ffffff;
+
+    box-shadow:
+        0 7px 18px rgba(37, 99, 235, 0.22);
+}
+
+
+.stButton > button[kind="primary"]:hover {
+    color: #ffffff;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1d4ed8,
+            #4338ca
+        );
+
+    box-shadow:
+        0 10px 24px rgba(37, 99, 235, 0.28);
+}
+
+
+/* ============================================================
+   INPUTS
+   ============================================================ */
+
+div[data-baseweb="select"] > div {
+    border-radius: 10px;
+    border-color: #cbd5e1;
+    background: #ffffff;
+}
+
+
+div[data-baseweb="select"] > div:focus-within {
+    border-color: #6366f1;
+    box-shadow:
+        0 0 0 1px #6366f1;
+}
+
+
+/* Number inputs */
+
+div[data-testid="stNumberInput"] input {
+    border-radius: 10px;
+}
+
+
+/* Text inputs */
+
+div[data-testid="stTextInput"] input {
+    border-radius: 10px;
+}
+
+
+/* ============================================================
+   SELECTBOX LABELS / INPUT LABELS
+   ============================================================ */
+
+.stSelectbox label,
+.stNumberInput label,
+.stSlider label,
+.stTextInput label {
+    font-weight: 650 !important;
+    color: #334155 !important;
+}
+
+
+/* ============================================================
+   SLIDER
+   ============================================================ */
+
+div[data-testid="stSlider"] {
+    padding-top: 0.25rem;
+}
+
+
+/* ============================================================
+   ALERTS
+   ============================================================ */
+
+div[data-testid="stAlert"] {
+    border-radius: 12px !important;
+    border-width: 1px !important;
+}
+
+
+/* Success */
+
+div[data-testid="stAlert"][kind="success"] {
+    box-shadow:
+        0 5px 15px rgba(16, 185, 129, 0.08);
+}
+
+
+/* Warning */
+
+div[data-testid="stAlert"][kind="warning"] {
+    box-shadow:
+        0 5px 15px rgba(245, 158, 11, 0.08);
+}
+
+
+/* Info */
+
+div[data-testid="stAlert"][kind="info"] {
+    box-shadow:
+        0 5px 15px rgba(59, 130, 246, 0.08);
+}
+
+
+/* ============================================================
+   DATAFRAMES / TABLES
+   ============================================================ */
+
+div[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 5px 18px rgba(15, 23, 42, 0.04);
+}
+
+
+/* ============================================================
+   DOWNLOAD BUTTON
+   ============================================================ */
+
+.stDownloadButton > button {
+    border-radius: 10px;
+
+    border: 1px solid #cbd5e1;
+
+    background: #ffffff;
+
+    color: #334155;
+
+    font-weight: 600;
+
+    transition: all 0.2s ease;
+}
+
+
+.stDownloadButton > button:hover {
+    border-color: #6366f1;
+
+    color: #4338ca;
+
+    transform: translateY(-1px);
+}
+
+
+/* ============================================================
+   TABS
+   ============================================================ */
+
+button[data-baseweb="tab"] {
+    font-weight: 650;
+
+    color: #64748b;
+
+    padding:
+        0.7rem 1rem;
+}
+
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #3730a3;
+}
+
+
+div[data-baseweb="tab-highlight"] {
+    background-color: #4f46e5;
+}
+
+
+/* ============================================================
+   EXPANDERS
+   ============================================================ */
+
+div[data-testid="stExpander"] {
+    border-radius: 12px;
+
+    border: 1px solid #e2e8f0;
+
+    background: rgba(255, 255, 255, 0.7);
+
+    box-shadow:
+        0 4px 15px rgba(15, 23, 42, 0.04);
+}
+
+
+/* ============================================================
+   CHART CONTAINERS
+   ============================================================ */
+
+div[data-testid="stVegaLiteChart"],
+div[data-testid="stArrowVegaLiteChart"] {
+    border-radius: 14px;
+
+    background: rgba(255, 255, 255, 0.65);
+
+    padding: 0.5rem;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 5px 18px rgba(15, 23, 42, 0.04);
+}
+
+
+/* ============================================================
+   MODEL STATUS
+   ============================================================ */
+
+.model-status-card {
+    border-radius: 14px;
+
+    padding: 1rem;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 5px 18px rgba(15, 23, 42, 0.05);
+}
+
+
+/* ============================================================
+   PAGE SPACING
+   ============================================================ */
+
+[data-testid="stVerticalBlock"] {
+    gap: 0.7rem;
+}
+
+
+/* ============================================================
+   LINKS
+   ============================================================ */
+
+a {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+
+a:hover {
+    color: #4338ca;
+}
+
+
+/* ============================================================
+   SCROLLBAR
+   ============================================================ */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+
+/* ============================================================
+   RESPONSIVE DESIGN
+   ============================================================ */
+
+@media (max-width: 900px) {
+
+    .block-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .main-title {
+        font-size: 2.2rem;
+    }
+
+    .subtitle {
+        font-size: 0.95rem;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .block-container {
+        padding-top: 1rem;
+    }
+
+    .main-title {
+        font-size: 1.9rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    div[data-testid="stMetric"] {
+        padding: 0.9rem;
+    }
+
+}
