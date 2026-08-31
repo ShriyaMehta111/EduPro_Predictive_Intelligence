@@ -1,0 +1,13 @@
+Property,Value
+Model,Ridge Regression
+Target,CategoryRevenueTarget
+TrainingPeriod,2025-01 to 2025-09
+TestingPeriod,2025-10 to 2025-12
+NumberOfFeatures,26
+NumberOfCategories,12
+TimeSeriesCVFolds,5
+CV_RMSE,1628.4070516652775
+CV_R2,0.9163614276132774
+Test_MAE,796.6180426968982
+Test_RMSE,1194.5812936863356
+Test_R2,0.9608101518815353

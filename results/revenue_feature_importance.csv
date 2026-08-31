@@ -1,0 +1,57 @@
+Feature,Importance
+CoursePrice,0.8854313016408167
+EnrollmentGrowthRate,0.03205819635960089
+RevenueGrowthRate,0.026188822762364207
+PreviousMonthRevenue,0.025479422482646362
+Previous3MonthEnrollment,0.004694327862550929
+PreviousMonthTransactionCount,0.0043743362530280095
+PreviousMonthEnrollment,0.003633884078578057
+PriceBand_Medium,0.0028931418421632763
+MonthCos,0.0025174463499782218
+Previous3MonthRevenue,0.001813608150884742
+Rating_Good,0.0014021310556645787
+Previous6MonthRevenue,0.0012622829486057517
+PreviousMonthAverageTransactionAmount,0.001021061455308257
+Previous3MonthRevenueSum,0.000790092498534685
+CourseRating,0.000683297988471922
+Month,0.0006031352519312354
+PriceBand_Low,0.0005615085517624437
+ExpertiseMatchScore,0.0005136245138633589
+Previous6MonthEnrollment,0.0004869703190206219
+Rating_Medium,0.0004369689514049601
+HasPreviousMonthData,0.00042954060448283
+TeacherCount,0.00038346954424934904
+Previous3MonthEnrollmentSum,0.00032907128232953676
+ExpertiseMatchRate,0.0002951062639898153
+IsQuarterEnd,0.0002624087445881079
+IsQuarterStart,0.0002221451740949947
+CourseDuration,0.00020368768117650347
+MonthSin,0.0002006305355172067
+AvgTeacherRating,0.00013026028927470794
+TeacherRatingScore,0.0001257704691072035
+TimeIndex,0.00010432533711250497
+AvgTeacherExperience,8.562915179379364e-05
+Category_Artificial Intelligence,8.068193973604482e-05
+Duration_Medium,7.131351706243635e-05
+TeacherQualityScore,5.7671090365713926e-05
+Category_Cybersecurity,3.2154998105216604e-05
+Category_Business,3.045704258961847e-05
+CourseLevelEncoded,2.4742677531971714e-05
+Rating_Low,2.195331584200414e-05
+PriceBand_High,1.7252732771647905e-05
+Category_Digital Marketing,1.3474019156545816e-05
+YearProgress,1.1974895893976588e-05
+Category_Project Management,7.373511900649133e-06
+CourseTypeEncoded,5.931813703759205e-06
+Duration_Short,2.6372459264611674e-06
+Category_Machine Learning,1.734456282506423e-06
+Category_Data Science,1.5171434701505582e-06
+Rating_Excellent,1.4734875326400082e-06
+Quarter,4.9717232913466306e-08
+Category_Design,0.0
+Category_Finance,0.0
+Category_Programming,0.0
+Category_Web Development,0.0
+PriceBand_Free,0.0
+Category_Marketing,0.0
+Duration_Long,0.0

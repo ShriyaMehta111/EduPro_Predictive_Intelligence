@@ -1,0 +1,57 @@
+Feature,Importance
+EnrollmentGrowthRate,0.6279433343623615
+PreviousMonthTransactionCount,0.14703581791465697
+PreviousMonthEnrollment,0.14524237705289397
+CourseRating,0.013867178745097656
+MonthCos,0.00841215414608419
+CoursePrice,0.006750521369024482
+Category_Design,0.005591272016265037
+CourseLevelEncoded,0.005228416746062254
+Previous6MonthEnrollment,0.004868697162346288
+TeacherQualityScore,0.004811994235120226
+Previous3MonthEnrollmentSum,0.004777111195068853
+HasPreviousMonthData,0.004338279929853407
+Category_Business,0.003339499794944041
+YearProgress,0.0021416547882612113
+Month,0.001963872070379986
+AvgTeacherExperience,0.0017650271998394505
+CourseDuration,0.0016037035841106391
+TimeIndex,0.0015352526990820444
+Previous3MonthEnrollment,0.0014429895991297675
+Previous6MonthRevenue,0.0011853399540105926
+TeacherRatingScore,0.0011666431534636623
+Previous3MonthRevenue,0.0007991274184558075
+AvgTeacherRating,0.0007320847961769066
+PreviousMonthRevenue,0.0005887367333438245
+ExpertiseMatchRate,0.0005404180715844953
+Rating_Medium,0.0004087782650530233
+PreviousMonthAverageTransactionAmount,0.0003353457489164015
+TeacherCount,0.000287702437151847
+PriceBand_Free,0.0002449614164268763
+RevenueGrowthRate,0.00024393038792400073
+ExpertiseMatchScore,0.00022559478709272346
+Category_Finance,0.00022439307179473176
+Category_Digital Marketing,0.0001317300653147232
+Previous3MonthRevenueSum,8.144362197791889e-05
+Duration_Long,5.177580486250502e-05
+PriceBand_Medium,3.6485291444663434e-05
+Rating_Good,2.8982867498293707e-05
+IsQuarterStart,1.5370467010929904e-05
+Category_Data Science,1.200102991408281e-05
+CourseTypeEncoded,0.0
+IsQuarterEnd,0.0
+Quarter,0.0
+MonthSin,0.0
+Category_Cybersecurity,0.0
+Category_Artificial Intelligence,0.0
+Category_Machine Learning,0.0
+Category_Programming,0.0
+Category_Marketing,0.0
+PriceBand_Low,0.0
+PriceBand_High,0.0
+Category_Web Development,0.0
+Category_Project Management,0.0
+Duration_Short,0.0
+Duration_Medium,0.0
+Rating_Excellent,0.0
+Rating_Low,0.0

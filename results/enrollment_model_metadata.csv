@@ -1,0 +1,16 @@
+Property,Value
+Model,Gradient Boosting
+TrainingStartMonth,2025-01
+TrainingEndMonth,2025-09
+TestingStartMonth,2025-10
+TestingEndMonth,2025-12
+TrainingRows,540
+TestingRows,180
+NumberOfFeatures,56
+TimeSeriesCVFolds,5
+CV_RMSE,1.7111289215577965
+CV_R2,0.7432868224564153
+Test_MAE,0.6321967208597161
+Test_MSE,1.1852546714140089
+Test_RMSE,1.088694021024277
+Test_R2,0.9116578336876462

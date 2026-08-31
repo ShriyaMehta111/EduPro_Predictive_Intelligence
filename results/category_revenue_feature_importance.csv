@@ -1,0 +1,27 @@
+Feature,Importance
+Category_Artificial Intelligence,2851.9830252233423
+Category_Business,2335.100310153354
+Category_Project Management,2031.3174188093917
+Category_Machine Learning,1705.4844510213684
+Category_Marketing,1578.5283049576108
+Category_Web Development,1358.4278275006172
+Category_Finance,1128.7317178393355
+CategoryRevenueGrowthRate,751.5640671452761
+CategoryEnrollment,736.4858757533193
+Category_Design,685.7931341083347
+PreviousMonthCategoryRevenue,439.9891731582053
+Category_Cybersecurity,412.7103466360034
+Category_Digital Marketing,317.95836639843867
+IsQuarterStart,299.5728405100409
+Previous6MonthCategoryRevenue,239.61746436976074
+HasPreviousCategoryRevenue,128.20773776579165
+Category_Data Science,124.29817556798865
+MonthCos,104.24303761951049
+Category_Programming,93.53156984346512
+MonthSin,77.24166036319575
+IsQuarterEnd,69.72768384197862
+Previous3MonthCategoryRevenue,69.0559260672574
+Quarter,46.28465859449263
+YearProgress,1.9456902177348652
+TimeIndex,1.9456902177283328
+Month,1.9456902177259527
