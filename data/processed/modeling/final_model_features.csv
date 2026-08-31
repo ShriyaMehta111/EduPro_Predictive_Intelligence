@@ -1,0 +1,57 @@
+Feature
+Month
+CoursePrice
+CourseDuration
+CourseRating
+TeacherCount
+AvgTeacherExperience
+AvgTeacherRating
+ExpertiseMatchRate
+Quarter
+IsQuarterStart
+IsQuarterEnd
+TimeIndex
+CourseTypeEncoded
+CourseLevelEncoded
+TeacherRatingScore
+TeacherQualityScore
+ExpertiseMatchScore
+PreviousMonthEnrollment
+PreviousMonthRevenue
+PreviousMonthTransactionCount
+PreviousMonthAverageTransactionAmount
+Previous3MonthEnrollmentSum
+Previous3MonthRevenueSum
+Previous3MonthEnrollment
+Previous3MonthRevenue
+Previous6MonthEnrollment
+Previous6MonthRevenue
+EnrollmentGrowthRate
+RevenueGrowthRate
+HasPreviousMonthData
+MonthSin
+MonthCos
+YearProgress
+Category_Artificial Intelligence
+Category_Business
+Category_Cybersecurity
+Category_Data Science
+Category_Design
+Category_Digital Marketing
+Category_Finance
+Category_Machine Learning
+Category_Marketing
+Category_Programming
+Category_Project Management
+Category_Web Development
+PriceBand_Free
+PriceBand_High
+PriceBand_Low
+PriceBand_Medium
+Duration_Long
+Duration_Medium
+Duration_Short
+Rating_Excellent
+Rating_Good
+Rating_Low
+Rating_Medium
